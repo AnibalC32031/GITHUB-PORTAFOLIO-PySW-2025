@@ -1,0 +1,62 @@
+/* Estilos del bloque header */
+.header{
+    background-color: #090a37;
+    color: rgb(0, 248, 132);
+    padding: 2rem 0;
+    text-align: center;
+}
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.section__logo {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(220, 11, 150);;
+    filter: brightness(1) invert(1);
+}
+
+.header__title{
+    margin: 0;
+    font-size: 2.5rem;
+    /* font-size: 62.5%;
+    1rem = 10px, 1.4rem = 14px, 1.6rem = 16px */
+
+}
+.header__subtitle{
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+/* Bloque de navegacion */
+
+.nav__list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.nav__item{
+    margin: 0;
+}
+.nav__link{
+    color: rgb(0, 248, 25);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.nav__link:hover{
+    background-color: rgb(83, 83, 83);
+}
+.nav__link--active{
+    background-color: #0800ff;
+    font-weight: bold;
+}
+
+
+
